@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yiqian Min — Building & evaluating LLMs for chip design, Verilog, and agentic hardware workflows.">
+  <meta name="author" content="Yiqian Min">
+  <meta name="theme-color" content="#0c1222">
+  <title>Yiqian Min</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="/">YM</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#focus">Focus</a>
+      <a href="#interests">Interests</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Personal site</p>
+      <h1>Yiqian Min</h1>
+      <p class="tagline">Building &amp; evaluating LLMs for chip design · Verilog · agentic hardware workflows</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://github.com/yllekmin" rel="noopener noreferrer" target="_blank">GitHub</a>
+        <a class="btn btn-ghost" href="mailto:yllekmin@gmail.com">Email</a>
+      </div>
+    </section>
+
+    <section id="focus" class="panel">
+      <div class="panel-label">
+        <span class="mono">01</span>
+        <h2>Focus</h2>
+      </div>
+      <div class="panel-body">
+        <p>
+          I work on <strong>LLM evaluation for chip and Verilog design</strong>, with an emphasis on
+          reliable benchmarks, agentic hardware workflows, and practical tooling that helps models
+          reason about RTL and silicon design tasks.
+        </p>
+        <ul class="chips" aria-label="Focus areas">
+          <li>LLM evaluation</li>
+          <li>Chip / Verilog design</li>
+          <li>Agentic hardware workflows</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="interests" class="panel">
+      <div class="panel-label">
+        <span class="mono">02</span>
+        <h2>Interests</h2>
+      </div>
+      <div class="panel-body">
+        <div class="card-grid">
+          <article class="card">
+            <h3>Chip-Bench</h3>
+            <p>Benchmarks and evaluation methods for LLMs applied to chip design problems.</p>
+          </article>
+          <article class="card">
+            <h3>NVIDIA CVDP</h3>
+            <p>Interest in NVIDIA’s Chip Verification Dataset Project and related evaluation efforts.</p>
+          </article>
+          <article class="card">
+            <h3>Agentic workflows</h3>
+            <p>Multi-step agents that assist with Verilog, verification, and hardware design loops.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="panel panel-contact">
+      <div class="panel-label">
+        <span class="mono">03</span>
+        <h2>Contact</h2>
+      </div>
+      <div class="panel-body">
+        <p>Open to conversations about LLM eval for hardware, Verilog tooling, and related research.</p>
+        <ul class="contact-list">
+          <li>
+            <span class="mono label">GitHub</span>
+            <a href="https://github.com/yllekmin" rel="noopener noreferrer" target="_blank">github.com/yllekmin</a>
+          </li>
+          <li>
+            <span class="mono label">Email</span>
+            <a href="mailto:yllekmin@gmail.com">yllekmin@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Yiqian Min</p>
+    <p class="mono muted">yllekmin.github.io</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
