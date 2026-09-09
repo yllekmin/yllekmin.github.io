@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yiqian Min — Chip design engineer; Apple, Innovium (Marvell), Meta. Exploring AI for chip design.">
+  <meta name="author" content="Yiqian Min">
+  <meta name="theme-color" content="#0c1222">
+  <title>Yiqian Min</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="/">YM</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#interests">Interests</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Personal site</p>
+      <h1>Yiqian Min</h1>
+      <p class="tagline">Chip design · Architecture, performance modeling &amp; functional verification</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://github.com/yllekmin" rel="noopener noreferrer" target="_blank">GitHub</a>
+        <a class="btn btn-ghost" href="mailto:yllekmin@gmail.com">Email</a>
+      </div>
+    </section>
+
+    <section id="experience" class="panel">
+      <div class="panel-label">
+        <span class="mono">01</span>
+        <h2>Experience</h2>
+      </div>
+      <div class="panel-body">
+        <p>
+          Background in <strong>chip design</strong>, with industry experience at
+          <strong>Apple</strong>, <strong>Innovium</strong> (acquired by Marvell), and <strong>Meta</strong>.
+          Work has spanned <strong>CPU</strong>, <strong>AR/VR</strong>, and <strong>infra AI accelerator</strong>
+          domains — focused on chip architecture, performance modeling, and functional verification.
+        </p>
+        <p>
+          Now exploring <strong>AI for chip design</strong>, starting with LLM evaluation.
+        </p>
+        <ul class="chips" aria-label="Experience highlights">
+          <li>Apple</li>
+          <li>Innovium / Marvell</li>
+          <li>Meta</li>
+          <li>Chip architecture</li>
+          <li>Performance modeling</li>
+          <li>Functional verification</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="education" class="panel">
+      <div class="panel-label">
+        <span class="mono">02</span>
+        <h2>Education</h2>
+      </div>
+      <div class="panel-body">
+        <p>
+          Studied Electronic Engineering in the
+          <strong>SJTU–University of Michigan Joint Institute</strong>
+          (上海交通大学密西根学院 / 交大密西根联合学院) 2+2 program,
+          then earned BSE and MSE in Computer Science and Engineering at the
+          <strong>University of Michigan</strong>.
+          Received the <strong>Shanghai Municipal Scholarship</strong> (上海市奖学金).
+        </p>
+        <p>
+          High school at <strong>华东师大二附中</strong> (ECNU Second Affiliated High School),
+          competition class, with physics competition awards.
+        </p>
+      </div>
+    </section>
+
+    <section id="interests" class="panel">
+      <div class="panel-label">
+        <span class="mono">03</span>
+        <h2>Interests</h2>
+      </div>
+      <div class="panel-body">
+        <div class="card-grid">
+          <article class="card">
+            <h3>AI for chip</h3>
+            <p>Applying AI and LLMs to chip design workflows, beginning with evaluation.</p>
+          </article>
+          <article class="card">
+            <h3>AI infra · GPU / accelerator</h3>
+            <p>Hardware and systems for AI infrastructure — GPUs and accelerators.</p>
+          </article>
+          <article class="card">
+            <h3>Physical AI silicon</h3>
+            <p>Silicon that enables physical AI — sensing, robotics, and embodied systems.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="panel panel-contact">
+      <div class="panel-label">
+        <span class="mono">04</span>
+        <h2>Contact</h2>
+      </div>
+      <div class="panel-body">
+        <p>Open to conversations about chip design, AI for silicon, and related work.</p>
+        <ul class="contact-list">
+          <li>
+            <span class="mono label">GitHub</span>
+            <a href="https://github.com/yllekmin" rel="noopener noreferrer" target="_blank">github.com/yllekmin</a>
+          </li>
+          <li>
+            <span class="mono label">Email</span>
+            <a href="mailto:yllekmin@gmail.com">yllekmin@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Yiqian Min</p>
+    <p class="mono muted">yllekmin.github.io</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
