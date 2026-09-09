@@ -56,7 +56,7 @@ a:hover {
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border);
-  padding: 18px 40px;
+  padding: 18px 28px;
   display: flex;
   flex-wrap: wrap;
   gap: 28px;
@@ -79,10 +79,10 @@ a:hover {
 /* Two-column layout */
 .wrapper {
   display: flex;
-  max-width: 1100px;
+  max-width: 1320px;
   margin: 0 auto;
   gap: 48px;
-  padding: 40px 40px 80px;
+  padding: 40px 28px 80px;
 }
 
 /* Left sticky profile */
@@ -169,12 +169,20 @@ a:hover {
 .content-section {
   flex: 1;
   min-width: 0;
-  max-width: 720px;
+  max-width: 920px;
 }
 
-section {
+main section,
+.content-section section {
+  margin-top: 28px;
   margin-bottom: 8px;
+  padding-bottom: 36px;
   scroll-margin-top: 80px;
+}
+
+main section:first-child,
+.content-section section:first-child {
+  margin-top: 0;
 }
 
 h2 {
