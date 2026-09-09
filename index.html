@@ -5,167 +5,147 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Yiqian Min — Exploring AI for chip design (starting with LLM evaluation). Interests: AI for chip, AI infra GPU/accelerator, physical AI silicon.">
   <meta name="author" content="Yiqian Min">
-  <meta name="theme-color" content="#0c1222">
+  <meta name="theme-color" content="#ffffff">
   <title>Yiqian Min</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="bg-grid" aria-hidden="true"></div>
-  <div class="bg-glow" aria-hidden="true"></div>
+  <nav class="topnav" aria-label="Primary">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#interests">Interests</a>
+    <a href="#life">Life</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-  <header class="site-header">
-    <a class="logo" href="/">YM</a>
-    <nav class="nav" aria-label="Primary">
-      <a href="#experience">Experience</a>
-      <a href="#education">Education</a>
-      <a href="#interests">Interests</a>
-      <a href="#life">Life</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero">
-      <p class="eyebrow">Personal site</p>
+  <div class="wrapper">
+    <aside class="profile-section">
+      <div class="profile-picture" aria-hidden="true">
+        <div class="monogram">YM</div>
+      </div>
       <h1>Yiqian Min</h1>
       <p class="tagline">Currently exploring AI for chip design — starting with LLM evaluation.</p>
-      <p class="hero-sub">Interests: AI for chip · AI infra (GPU / accelerator) · Physical AI silicon</p>
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="https://github.com/yllekmin" rel="noopener noreferrer" target="_blank">GitHub</a>
-        <a class="btn btn-ghost" href="mailto:yllekmin@gmail.com">Email</a>
-      </div>
-    </section>
+      <p class="tagline-sub">Interests: AI for chip · AI infra (GPU / accelerator) · Physical AI silicon</p>
+      <ul class="list-inline">
+        <li>
+          <a class="social-icon" href="https://github.com/yllekmin" rel="noopener noreferrer" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a class="social-icon" href="mailto:yllekmin@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+    </aside>
 
-    <section id="experience" class="panel">
-      <div class="panel-label">
-        <span class="mono">01</span>
-        <h2>Experience</h2>
-      </div>
-      <div class="panel-body">
+    <main class="content-section">
+      <section id="about">
+        <h2><i class="fas fa-user" aria-hidden="true"></i> About</h2>
         <p>
-          Background in <strong>chip design</strong>, with industry experience at
-          <strong>Apple</strong>, <strong>Innovium</strong> (acquired by Marvell), and <strong>Meta</strong>.
-          Work has spanned <strong>CPU</strong>, <strong>AR/VR</strong>, and <strong>infra AI accelerator</strong>
-          domains — focused on chip architecture, performance modeling, and functional verification.
+          Chip design engineer with industry experience at Apple, Innovium (acquired by Marvell), and Meta,
+          spanning CPU, AR/VR, and infra AI accelerator work — architecture, performance modeling, and
+          functional verification. Currently exploring AI for chip design, starting with LLM evaluation.
         </p>
-        <ul class="chips" aria-label="Experience highlights">
-          <li>Apple</li>
-          <li>Innovium / Marvell</li>
-          <li>Meta</li>
-          <li>Chip architecture</li>
-          <li>Performance modeling</li>
-          <li>Functional verification</li>
+      </section>
+
+      <section id="experience">
+        <h2><i class="fas fa-briefcase" aria-hidden="true"></i> Experience</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Company</th>
+              <th>Focus</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Apple</strong></td>
+              <td>Chip design — architecture, performance modeling, functional verification</td>
+            </tr>
+            <tr>
+              <td><strong>Innovium</strong><br><span class="muted">acquired by Marvell</span></td>
+              <td>Chip design — architecture, performance modeling, functional verification</td>
+            </tr>
+            <tr>
+              <td><strong>Meta</strong></td>
+              <td>Chip design across CPU, AR/VR, and infra AI accelerator</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="education">
+        <h2><i class="fas fa-graduation-cap" aria-hidden="true"></i> Education</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>School</th>
+              <th>Degree / Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>University of Michigan</strong></td>
+              <td>BSE &amp; MSE, Computer Science and Engineering</td>
+            </tr>
+            <tr>
+              <td><strong>SJTU–UM Joint Institute</strong><br><span class="muted">交大密西根联合学院 · 2+2</span></td>
+              <td>Electronic Engineering<br>Shanghai Municipal Scholarship (上海市奖学金)</td>
+            </tr>
+            <tr>
+              <td><strong>华东师大二附中</strong></td>
+              <td>Competition class; physics competition awards</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="interests">
+        <h2><i class="fas fa-lightbulb" aria-hidden="true"></i> Interests</h2>
+        <ul class="interest-list">
+          <li>
+            <strong>AI for chip</strong>
+            <span>AI and LLMs in chip design workflows; starting with LLM evaluation.</span>
+          </li>
+          <li>
+            <strong>AI infra (GPU / accelerator)</strong>
+            <span>Hardware and systems for AI infrastructure.</span>
+          </li>
+          <li>
+            <strong>Physical AI silicon</strong>
+            <span>Silicon for sensing, robotics, and embodied AI.</span>
+          </li>
         </ul>
-      </div>
-    </section>
+      </section>
 
-    <section id="education" class="panel">
-      <div class="panel-label">
-        <span class="mono">02</span>
-        <h2>Education</h2>
-      </div>
-      <div class="panel-body">
+      <section id="life">
+        <h2><i class="fas fa-heart" aria-hidden="true"></i> Life</h2>
         <p>
-          Studied Electronic Engineering in the
-          <strong>SJTU–University of Michigan Joint Institute</strong>
-          (上海交通大学密西根学院 / 交大密西根联合学院) 2+2 program,
-          then earned BSE and MSE in Computer Science and Engineering at the
-          <strong>University of Michigan</strong>.
-          Received the <strong>Shanghai Municipal Scholarship</strong> (上海市奖学金).
-        </p>
-        <p>
-          High school at <strong>华东师大二附中</strong> (ECNU Second Affiliated High School),
-          competition class, with physics competition awards.
-        </p>
-      </div>
-    </section>
-
-    <section id="interests" class="panel">
-      <div class="panel-label">
-        <span class="mono">03</span>
-        <h2>Interests</h2>
-      </div>
-      <div class="panel-body">
-        <div class="card-grid">
-          <article class="card">
-            <h3>AI for chip</h3>
-            <p>AI and LLMs in chip design workflows.</p>
-          </article>
-          <article class="card">
-            <h3>AI infra · GPU / accelerator</h3>
-            <p>Hardware and systems for AI infrastructure.</p>
-          </article>
-          <article class="card">
-            <h3>Physical AI silicon</h3>
-            <p>Silicon for sensing, robotics, and embodied AI.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="life" class="panel">
-      <div class="panel-label">
-        <span class="mono">04</span>
-        <h2>Life</h2>
-      </div>
-      <div class="panel-body">
-        <p>
-          Outside work, pursues a <strong>healthy, highly disciplined</strong> lifestyle —
-          consistent training as a long-term practice.
-        </p>
-        <p><strong>Weekly:</strong> HIIT, running, strength / muscle training, yoga, and boxing.</p>
-        <ul class="chips" aria-label="Weekly training">
-          <li>HIIT</li>
-          <li>Running</li>
-          <li>Strength / muscle training</li>
-          <li>Yoga</li>
-          <li>Boxing</li>
-        </ul>
-        <p>
-          Also enjoys <strong>Spartan Race</strong> (obstacle races),
-          <strong>Hyrox</strong> fitness races, and various recreational running races.
-        </p>
-        <ul class="chips" aria-label="Races and events">
-          <li>Spartan Race</li>
-          <li>Hyrox</li>
-          <li>Recreational running races</li>
-        </ul>
-        <p>
-          Also likes <strong>reading books</strong> —
+          Outside work, pursues a healthy, highly disciplined lifestyle — consistent training as a
+          long-term practice. Weekly: HIIT, running, strength / muscle training, yoga, and boxing.
+          Also enjoys Spartan Race, Hyrox, and recreational running races. Likes reading books —
           though reads less than before, now that AI is around.
         </p>
-      </div>
-    </section>
+      </section>
 
-    <section id="contact" class="panel panel-contact">
-      <div class="panel-label">
-        <span class="mono">05</span>
-        <h2>Contact</h2>
-      </div>
-      <div class="panel-body">
-        <p>Open to conversations about chip design, AI for silicon, and related work.</p>
-        <ul class="contact-list">
-          <li>
-            <span class="mono label">GitHub</span>
-            <a href="https://github.com/yllekmin" rel="noopener noreferrer" target="_blank">github.com/yllekmin</a>
-          </li>
-          <li>
-            <span class="mono label">Email</span>
-            <a href="mailto:yllekmin@gmail.com">yllekmin@gmail.com</a>
-          </li>
-        </ul>
-      </div>
-    </section>
-  </main>
+      <section id="contact">
+        <h2><i class="fas fa-paper-plane" aria-hidden="true"></i> Contact</h2>
+        <p class="contact-info">
+          <a href="https://github.com/yllekmin" rel="noopener noreferrer" target="_blank">github.com/yllekmin</a><br>
+          <a href="mailto:yllekmin@gmail.com">yllekmin@gmail.com</a>
+        </p>
+      </section>
 
-  <footer class="site-footer">
-    <p>© <span id="year"></span> Yiqian Min</p>
-    <p class="mono muted">yllekmin.github.io</p>
-  </footer>
+      <footer>
+        <p class="contact-info">© <span id="year"></span> Yiqian Min</p>
+      </footer>
+    </main>
+  </div>
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
