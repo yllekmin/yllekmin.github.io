@@ -377,3 +377,11 @@ main,
     transition: none;
   }
 }
+
+.chips + p {
+  margin-top: 1.15rem;
+}
+
+.chips + .chips {
+  margin-top: 0.85rem;
+}
